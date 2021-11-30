@@ -12,6 +12,9 @@ Este repositório contém alguns comandos básicos para o uso de ffmpeg tais com
 ### ✅ Tirar o audio de um video
 > ffmpeg -i example.mkv -c copy -an example-nosound.mkv
 
+### ✅ Obter audio de um video
+> ffmpeg -i sample.mp4 -q:a 0 -map a sample.mp3
+
 ### ✅ Juntar por Dimensão Horizontalmente:
 
 Opção 1:
